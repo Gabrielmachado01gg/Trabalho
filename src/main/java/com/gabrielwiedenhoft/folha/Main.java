@@ -12,7 +12,7 @@ public class Main {
         folha.adicionar(new Assistente("Carlos Pereira", "456", new BigDecimal("3000")));
         folha.adicionar(new Vendedor("Julia Santos", "789", new BigDecimal("2500"), new BigDecimal("500")));
 
-        NumberFormat moeda = NumberFormat.getCurrencyInstance(Locale.of("pt", "BR"));
+        NumberFormat moeda = NumberFormat.getCurrencyInstance(Locale.forLanguageTag("pt-BR"));
         for (Funcionario funcionario : folha.getFuncionarios()) {
             System.out.printf("%-45s %s%n", funcionario, moeda.format(funcionario.calculaSalario()));
         }
