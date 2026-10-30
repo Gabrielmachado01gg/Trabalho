@@ -1,4 +1,6 @@
 target/
 *.class
-nbproject/private/
 .idea/
+*.iml
+nbproject/private/
+.vscode/
