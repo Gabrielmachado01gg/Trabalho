@@ -48,6 +48,6 @@ java -jar target/folha-de-pagamento-1.0.0.jar
 
 ## Autor
 
-Gabriel Wiedenhoft — [LinkedIn](https://www.linkedin.com/in/gabriel-wiedenhoft-machado)
+Gabriel Wiedenhoft — [LinkedIn](https://www.linkedin.com/in/gabriel-wiedenhoft-8a3256286)
 
 Licença [MIT](LICENSE).
